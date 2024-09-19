@@ -1,0 +1,46 @@
+.aceitem{
+    width: 100%;
+    height: 100vh;
+    background-color: #003078;
+    padding: 1.3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.aceitem a{
+    color: black;
+}
+
+.aceitem .mstop{
+    margin-bottom: 3vh;
+}
+
+.aceitem .amoption{
+    width: 100%;
+    height: 40vh;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+    overflow: hidden;
+}
+
+.aceitem .amoption h3{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%, 0);
+    font-size: 3vh;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.ch{
+    color: white;
+}

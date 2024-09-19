@@ -1,0 +1,46 @@
+.thankspage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #003078;
+    padding: 1.3rem 1rem;
+}
+
+.thankspage .tpcenter{
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.thankspage .tpcenter img{
+    margin-bottom: 4vh;
+}
+
+.thankspage .tpcenter h1{
+    font-size: 3.4vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.thankspage .tpcenter a button{
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 30px;
+    background-color: #F77F00;
+    color: white;
+    font-size: 3.4vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    margin-top: 3vh;
+}
+
+.thankspage .tpcenter a {
+    all: inherit;
+    width: 100%;
+
+}
